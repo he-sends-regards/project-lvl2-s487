@@ -1,0 +1,39 @@
+{
+    "name": "gendiff",
+    "version": "1.0.0",
+    "description": "",
+    "bin": {
+        "gendiff": "usr/bin/gendiff.js"
+    },
+    "main": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "eslint": "eslint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/postscriptumno/project-lvl2-s487.git"
+    },
+    "author": "postscriptumno",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/postscriptumno/project-lvl2-s487/issues"
+    },
+    "homepage": "https://github.com/postscriptumno/project-lvl2-s487#readme",
+    "dependencies": {
+        "commander": "^5.1.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.0",
+        "@babel/node": "^7.8.7",
+        "@babel/preset-env": "^7.9.5",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-babel": "^5.3.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-jest": "^23.8.2",
+        "lodash": "^4.17.15"
+    }
+}
